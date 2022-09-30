@@ -1,3 +1,3 @@
 # Vinta-Landing-Page
 
-<img src="/Thumbnail.png">
+<img src="public/Thumbnail.png">
