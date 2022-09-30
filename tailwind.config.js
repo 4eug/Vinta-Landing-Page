@@ -8,14 +8,20 @@ module.exports = {
       colors: {
         'bg-color': '#F7B904',
         'primary-text-color': '#FFFFFF',
-        'second-text-color': '#111928',
+        'secondary-text-color': '#111928',
       },
       fontSize: {
         'big-font-size': '69px',
+        'mobile-big-font-size': '49px',
         'small-font-size': '17px',
+      },
+      fontWeight: {
+        'font-medium':'500',
+        'font-regular':'400',
       },
       lineHeight: {
         'big-line-weight': '81px',
+        'mobile-big-line-weight': '57px',
         'small-line-weight': '30px',
       },
       fontFamily: {
