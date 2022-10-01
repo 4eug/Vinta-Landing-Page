@@ -33,7 +33,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Lexend", "system-ui", "sans"],
-        monospace: ["DM Mono", "monospace"],
+        monospace: ["Inter", "monospace"],
       },
     },
   },
