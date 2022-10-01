@@ -1,12 +1,11 @@
 import "../styles/globals.css";
 
-import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider defaultTheme="system" attribute="class">
+    <div className="bg-bg-color">
       <Component {...pageProps} />
-    </ThemeProvider>
+    </div>
   );
 }
 
