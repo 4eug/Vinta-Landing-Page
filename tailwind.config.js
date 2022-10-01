@@ -1,10 +1,17 @@
 /* eslint-disable no-undef */
+const { screens} = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
   theme: {
     extend: {
+      screens: {
+        xxxsm: "200px",
+        xxsm: "340px",
+        xsm: "480px",
+        ...screens,
+      },
       colors: {
         'bg-color': '#F7B904',
         'primary-text-color': '#FFFFFF',
@@ -25,7 +32,8 @@ module.exports = {
         'small-line-weight': '30px',
       },
       fontFamily: {
-        'vinta-lexend':"Lexend",
+        sans: ["Lexend", "system-ui", "sans"],
+        monospace: ["DM Mono", "monospace"],
       },
     },
   },
